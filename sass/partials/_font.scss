@@ -1,0 +1,11 @@
+@each $single-size in $sizes {
+    .text-#{$single-size} {
+    font-size: $single-size;
+  }
+}
+$sizes-map: (
+  small: 12px,
+  medium: 16px,
+  large: 20px,
+  extralarge: 24px,
+);
